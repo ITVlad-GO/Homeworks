@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
 }
 
-.mainbox {
+.wrapper {
     background-color: rgb(255, 255, 255);
     color: white;
     font-size: 18px;
@@ -23,14 +23,14 @@ body {
 
 }
 
-.mainbox span {
+.wrapper span {
     color: #3D3D3D;
     font-size: 20px;
     font-weight: 500;
     line-height: 16px;
 }
 
-.mainbox .gre {
+.wrapper .gre {
     color: #46A358;
     margin-left: 27px;
     font-size: 20px;
@@ -134,7 +134,7 @@ form .nonreg {
   opacity: 0.8;
 }
 
-.mainbox #img-close {
+.wrapper #img-close {
     position: absolute;
     top: 0;
     right: 0;
@@ -143,7 +143,7 @@ form .nonreg {
 
 
 }
-.mainbox #hide {
+.wrapper #hide {
     position: absolute;
     right: 120px;
     top: 266px;
