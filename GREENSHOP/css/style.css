@@ -1,11 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    background-color: rgba(255, 251, 0, 0.825);
+    background-color: #46A358;
     display: flex;
     justify-content: center;
     align-items: center;
