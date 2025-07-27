@@ -1,5 +1,34 @@
-.navi {
-    padding: 30px 120px 52px
+@font-face{
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Light.eot');
+    src: url('../fonts/CeraPro-Light.eot#iefix') format('embedded-opentype'),
+        url('../fonts/CeraPro-Light.woff2') format('woff2'),
+        url('../fonts/CeraPro-Light.woff') format('woff'),
+        url('../fonts/CeraPro-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face{
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Medium.eot');
+    src: url('../fonts/CeraPro-Medium.eot') format('embedded-opentype'),
+        url('../fonts/CeraPro-Medium.woff2') format('woff2'),
+        url('../fonts/CeraPro-Medium.woff') format('woff'),
+        url('../fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face{
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Black.eot');
+    src: url('../fonts/CeraPro-Black.eot') format('embedded-opentype'),
+        url('../fonts/CeraPro-Black.woff2') format('woff2'),
+        url('../fonts/CeraPro-Black.woff') format('woff'),
+        url('../fonts/CeraPro-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+.main-box {
+    padding: 30px 120px 0;
+    margin-bottom: 130px;
 }
 
 header {
@@ -13,12 +42,18 @@ header {
 .nav {
     display: flex;
 }
+.nav-items:hover {
+    font-weight: 700;
+    border-bottom: solid #46A358 3px;
+    cursor: pointer;
+}
 
 .nav-items {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cera Pro';
     color: #3D3D3D;
     font-size: 16px;
     padding: 8px 25px 25px;
+    transition: ease-in-out 0.2s
 }
 
 .active {
@@ -37,6 +72,11 @@ header {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.btn:hover {
+    padding: 10px 19px;
 }
 
 .content {
@@ -45,7 +85,7 @@ header {
 }
 
 .p1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cera Pro';
     color: #3D3D3D;
     font-size: 14px;
     font-style: normal;
@@ -62,7 +102,7 @@ header {
 h1 {
     white-space: pre-line;
     color: #3D3D3D;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cera Pro';
     font-size: 70px;
     font-style: normal;
     font-weight: 900;
@@ -75,7 +115,7 @@ h1 {
  h1 span {
     width: 50% ;
     color: #46A358;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cera Pro';
     font-size: 70px;
     font-style: normal;
     font-weight: 900;
@@ -85,7 +125,7 @@ h1 {
 
  .btn2 {
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cera Pro';
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -93,12 +133,16 @@ h1 {
     background: #46A358;
     padding: 11px 26px;
     cursor: pointer;
+    transition: ease-in-out 0.5s;
+ }
+ .btn2:hover {
+    padding: 13px 28px;
  }
 
  .p2 {
     margin-bottom: 44px;
     color: #727272;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cera Pro';
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -121,3 +165,5 @@ h1 {
     left: 55px;
 
  }
+
+

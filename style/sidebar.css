@@ -1,0 +1,165 @@
+.nvi {
+    padding: 60px 120px;
+    display: flex;
+}
+
+.sidebar-dimenshens {
+    flex-shrink: 0;
+    background: #FBFBFB;
+}
+.lf {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 18px;
+    max-height: 500px;
+    min-height: 500px;
+
+}
+
+
+ .lf > p {
+        margin-bottom: 8px;
+        color: #3D3D3D;
+        font-family: "Cera Pro";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+ }
+ .lf >img {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+ }
+ .navi {
+    margin-left: 10px;
+ }
+ .lf > .navi  > .liman{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+ }
+ .lf > .navi  > .liman:first-child {
+    color: #46A358;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+} 
+.content-main {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.nav-confi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 38px;
+    
+}
+.confi-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.confi-items {
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.confi-items:first-child {
+    color: #46A358;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    border-bottom: solid 3px #46A358 ;
+    padding: 0 0 4px 0;
+}
+
+.categori {
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+}
+
+.categori::after {
+    content: url(/img/Arrow\ -\ Down\ 2.png);
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.by-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.by-card-items {
+    width: calc((100% - 60px) / 3);
+    background-color: white;
+}
+.name-product {
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+    margin-bottom: 6px;
+}
+
+.price-product {
+    color: #46A358;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+}
+
+.pagination {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.page {
+    padding: 10px 13px;
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.page.active {
+        border-radius: 4px;
+        background: #46A358;
+        color: #E5E5E5;
+}
+
+.page:last-child {
+        padding: 10px;
+}
+.page:hover {
+    background-color: #46A358;
+    color: white;
+}
