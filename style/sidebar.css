@@ -138,8 +138,33 @@
     margin-bottom: 100px;
 }
 .by-card-items {
-    width: calc((100% - 60px) / 3); /* 3 в ряд, минус gap */
+    width: calc((100% - 60px) / 3);
     background-color: white;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+.by-card .by-card-items > img{
+    margin-bottom: 50px;
+}
+
+.btn-hover {
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.by-card-items:hover .btn-hover{
+    opacity: 1;
+}
+
+.by-card-items:hover{
+    border-top: solid 1px green;
 }
 .name-product {
     color: #3D3D3D;
@@ -159,12 +184,23 @@
     font-weight: 700;
     line-height: 16px; 
 }
+.price-product-sale {
+    margin-left: 16px;
+    color: #A5A5A5;
+    text-decoration: line-through;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+}
 
 .pagination {
     display: flex;
     justify-content: end;
     gap: 10px;
 }
+
 .page {
     padding: 10px 13px;
     color: #3D3D3D;
@@ -190,4 +226,23 @@
 .page:hover {
     background-color: #46A358;
     color: white;
+}
+
+.skid {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    background: #46A358;
+    padding: 7px 8px;
+}
+.sale-banner {
+    color: #FFFFFF;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+.sale {
+    position: relative;
 }
