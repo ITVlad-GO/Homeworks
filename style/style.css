@@ -218,7 +218,7 @@ h1 {
     background: #EDF6EE;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.9s ease, transform 0.9s ease;
+    transition: opacity 0.6s ease, transform 0.6s ease;
     transform: translateX(-20px);
 }
 .sub-list-items {
@@ -247,5 +247,157 @@ h1 {
     line-height: normal;
 }
 
+
+/* footer */
+footer {
+  font-family: 'Cera Pro';
+  background: #f8f8f8;
+  padding: 20px 0 20px 0;
+}
+
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 30px;
+  padding: 0 20px 0 20px;
+}
+.text-top {
+    color: #727272;
+    font-family: "Cera Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px
+}
+
+
+.newsletter h3 {
+    font-family: 'Cera Pro';
+    margin: 10px 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.newsletter form {
+  display: flex;
+  margin: 10px 0;
+  gap: 300px;
+}
+
+.newsletter input {
+  flex: 1;
+  padding-left: 10px;
+
+}
+
+.newsletter button {
+  padding: 10px 20px 10px 20px;
+}
+.email-submit{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #3D3D3D;
+}
+.email-submit > button {
+    background-color: #46A358;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    cursor: pointer;
+}
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-right: solid rgba(70, 163, 88, 0.10) 2px;
+    margin-right: 15px;
+}
+.footer-card:last-child{
+    border: solid rgba(70, 163, 88, 0.10) 0px;
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #EDF6EF, #52C368);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.ph {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px 0 20px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column h4 {
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.footer-column li {
+    margin: 5px 0;
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.footer-column{
+    padding: 20px 30px;
+}
+.social-icons {
+    padding: 20px 0 30px 0;
+    display: flex;
+    gap: 10px;
+}
+.soc-med {
+    cursor: pointer;
+}
+.payments {
+    padding: 30px 30px 0 0;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+.footer-box {
+    padding: 120px;
+
+}
 
 
