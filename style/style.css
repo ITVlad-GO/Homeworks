@@ -25,7 +25,43 @@
         url('../fonts/CeraPro-Black.ttf') format('truetype');
     font-weight: 900;
 }
+/* louder */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
 
+  animation: fadeOut 3s forwards;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ddd;
+  border-top: 5px solid #4CAF50;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes fadeOut {
+  0%   { opacity: 1; visibility: visible; }
+  90%  { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* louder */
 .main-box {
     padding: 30px 120px 0;
     margin-bottom: 130px;
@@ -442,6 +478,23 @@ footer {
  .navi {
     margin-left: 10px;
  }
+
+ .navi label {
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.navi span:hover {
+    color: #46A358;
+}
+.navi input[type="radio"]:checked ~ span {
+  color: #46A358;
+}
+.navi input[type="radio"] {
+  display: none;
+}
+
  .lf > .navi  > .liman{
     color: #3D3D3D;
     font-family: "Cera Pro";
@@ -451,7 +504,6 @@ footer {
     line-height: 40px;
  }
  .lf > .navi  > .liman:first-child {
-    color: #46A358;
     font-family: "Cera Pro";
     font-size: 15px;
     font-style: normal;
