@@ -987,6 +987,8 @@
     }
 }
 /* footer */
+@media screen and (max-width: 2560px) {
+
 footer {
   font-family: 'Cera Pro';
   background: #f8f8f8;
@@ -1140,6 +1142,41 @@ footer {
 .footer-box {
     padding: 120px;
 
+}
+}
+@media screen and (max-width: 768px) {
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-box {
+        padding: 60px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+    }
+    .footer-card {
+        border-right: none;
+    }
+}
+@media screen and (max-width: 426px) {
+    .footer-middle {
+        display: flex;
+        flex-direction: column;
+    }
+    .email-submit {
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletter form {
+        gap: 30px;
+    }
+    .email-submit > button {
+        border-radius: 30px;
+    }
+       .newsletter input {
+        padding: 10px;
+    }
 }
 
 
