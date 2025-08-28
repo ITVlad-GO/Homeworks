@@ -1,0 +1,667 @@
+@media screen and (min-width: 425px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+  header .header__top {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: var(--Grey-Bg, #F5F5FA);
+  }
+  header .header__top span {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  header .header__top .check-radio {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: center;
+  }
+  header .header__top .check-radio p {
+    margin: 0px;
+  }
+  header .header__top .check-radio svg {
+    display: none;
+  }
+  header .header__top .check-radio .check-radio__adres {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: none;
+  }
+  header .header__top .check-radio .check-radio__number {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: none;
+  }
+  header .header__top .check-radio label {
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+  }
+  header .header__top .check-radio label .check-radio__custom {
+    padding: 5px 7px;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+  }
+  header .header__top .check-radio label input[type=radio] {
+    display: none;
+  }
+  header .header__top .check-radio label input[type=radio]:checked ~ .check-radio__custom {
+    color: #ffffff;
+    background-color: #F0145A;
+  }
+  header .header__top .check-radio .check-radio__items {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+  header .header__box {
+    width: 100%;
+    display: none;
+  }
+  header .header__box > .header__top {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: var(--Grey-Bg, #F5F5FA);
+  }
+  header .header__box > .header__top span {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  header .header__box > .header__top .check-radio {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: center;
+  }
+  header .header__box > .header__top .check-radio p {
+    margin: 0px;
+  }
+  header .header__box > .header__top .check-radio svg {
+    display: none;
+  }
+  header .header__box > .header__top .check-radio .check-radio__adres {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: none;
+  }
+  header .header__box > .header__top .check-radio .check-radio__number {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: none;
+  }
+  header .header__box > .header__top .check-radio label {
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+  }
+  header .header__box > .header__top .check-radio label .check-radio__custom {
+    padding: 5px 7px;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+  }
+  header .header__box > .header__top .check-radio label input[type=radio] {
+    display: none;
+  }
+  header .header__box > .header__top .check-radio label input[type=radio]:checked ~ .check-radio__custom {
+    color: #ffffff;
+    background-color: #F0145A;
+  }
+  header .header__box > .header__top .check-radio .check-radio__items {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+  header > .header__button {
+    display: flex;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+  }
+  header > .header__button .logo img {
+    width: 80%;
+  }
+  header .nav-meny {
+    display: flex;
+    flex-direction: row;
+    display: none;
+  }
+  header .nav-meny .nav-meny__bar {
+    display: flex;
+    flex-direction: inherit;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    gap: 30px;
+  }
+  .main .main__text {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .main .main__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+  }
+  .main .main__card .main__card--person {
+    flex: 1 1 250px;
+    max-width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    gap: 20px;
+  }
+  .main .main__card .main__card--person .main__person--inf {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main .main__card .main__card--person .main__person--inf svg {
+    transition: ease-in-out 0.3s;
+  }
+  .main .main__card .main__card--person .main__person--inf svg:hover {
+    fill: #EDEDF7;
+    stroke: #F0145A;
+  }
+  .main .main__card .main__card--person .main__card--person__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .main .main__card .main__card--person .main__card--person__text span:hover {
+    color: #F0145A;
+  }
+  .main .main__card .main__card--person .main__card--person__text span {
+    color: var(--Main-Regular, #323264);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: ease-in-out 0.3s;
+  }
+  .main .main__card .main__card--person .main__card--person__text p {
+    color: var(--Grey-Text, #B3B3BA);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+  }
+  .main .main__card .main__card--person .main__card--person__imd img {
+    height: 300px;
+    border-radius: 12px;
+  }
+  footer {
+    background: var(--Grey-Bg, #F5F5FA);
+  }
+  footer .footer__items {
+    display: flex;
+    padding: 30px 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+  }
+  footer .footer__items p {
+    color: var(--Main-Regular, #323264);
+    text-align: center;
+    /* H3 / Caps */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  footer .footer__items .footer__card--dad {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+  }
+  footer .footer__items .footer__card--dad .footer__card--1 {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    padding: 24.4px 0 25.6px 0;
+    border-radius: 12px;
+    background: var(--Basic-White, #FFF);
+  }
+  footer .footer__items .footer__card--dad .footer__card--2 {
+    display: none;
+  }
+  footer .footer__items .footer__card--dad .footer__card--3 {
+    display: none;
+  }
+  footer .footer__items .footer__card--dad .footer__card--4 {
+    display: none;
+  }
+  footer .footer__items .footer__radio__dad {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  footer .footer__items--2 {
+    display: flex;
+    padding: 0 30px 30px 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+  }
+  footer .footer__items--2 .footer__items--main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__nad-item {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__pod-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--radio {
+    display: none;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__text {
+    color: var(--Main-Regular, #323264);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__btn {
+    border: none;
+    color: var(--Active-Regular, #24A3FF);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: var(--Grey-Bg, #F5F5FA);
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__number {
+    color: var(--Main-Alt, #46466E);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__email {
+    color: var(--Active-Regular, #24A3FF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__buttom {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+@media screen and (min-width: 768px) {
+  header {
+    padding: 60px;
+    gap: 30px;
+  }
+  header .header__top {
+    display: none;
+  }
+  header .header__box {
+    display: block;
+  }
+  header .header__box .header__top {
+    background: none;
+    padding: 10px;
+  }
+  header .header__box .header__top .number-company {
+    display: none;
+  }
+  header .header__box .header__top .check-radio {
+    align-items: center;
+    gap: 6px;
+    flex-direction: row;
+    display: flex;
+  }
+  header .header__box .header__top .check-radio .check-radio__items .check-radio__custom {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+  header .header__box .header__top .check-radio .check-radio__adres {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: none;
+    margin: 0 0 0 0;
+  }
+  header .header__box .header__top .check-radio .check-radio__number {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: none;
+    margin: 0 0 0 0;
+  }
+  header .header__box .header__top .check-radio label {
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+  }
+  header .header__box .header__top .check-radio label .check-radio__custom {
+    padding: 5px 7px;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+  }
+  header .header__box .header__top .check-radio label .check-radio__custom {
+    padding: 5px 7px;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+  }
+  header .header__box .header__top .check-radio label input[type=radio] {
+    display: none;
+  }
+  header .header__box .header__top .check-radio label input[type=radio]:checked ~ .check-radio__custom {
+    color: #ffffff;
+    background-color: #F0145A;
+  }
+  header .header__box .header__top .check-radio .check-radio__number {
+    display: block;
+  }
+  header .header__box .header__top .check-radio svg {
+    display: block;
+  }
+  header .header__box .header__top .check-radio .check-radio__adres {
+    display: block;
+  }
+  header .header__box .nav-meny {
+    display: flex;
+    flex-direction: row;
+  }
+  header .header__box .nav-meny .nav-meny__bar {
+    list-style: none;
+    gap: 15px;
+    padding: 0 10px;
+  }
+  header .header__box .nav-meny .nav-meny__bar .nav-meny__bar--inems:hover {
+    color: var(--Accent, #F0145A);
+    border-bottom: solid 1px var(--Accent, #F0145A);
+  }
+  header .header__box .nav-meny .nav-meny__bar li {
+    color: var(--Active-Regular, #24A3FF);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: ease-in-out 0.3s;
+  }
+  .main {
+    display: flex;
+    padding: 0 60px;
+  }
+  .main .main__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+  }
+  .main .main__card .main__card--person {
+    flex: 1 1 250px;
+    max-width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .main .main__card .main__card--person .main__card--person__imd {
+    border-radius: 12px 12px 12px 12px;
+  }
+  footer {
+    padding: 0 60px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer__items {
+    border-bottom: solid 2px var(--Grey-Separator, #E6E6F0);
+    padding: 30px 0;
+    margin-bottom: 30px;
+  }
+  footer .footer__items .footer__radio__dad .footer__radio--2 {
+    display: none;
+  }
+  footer .footer__items .footer__radio__dad .footer__radio--3 {
+    display: none;
+  }
+  footer .footer__items .footer__radio__dad .footer__radio--4 {
+    display: none;
+  }
+  footer .footer__items .footer__card--dad {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  footer .footer__items .footer__card--dad .footer__card--img {
+    width: 100%;
+    height: auto;
+  }
+  footer .footer__items .footer__card--dad .footer__card--img--1 {
+    width: auto;
+  }
+  footer .footer__items .footer__card--dad .footer__card--1 {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    padding: 24.4px 0 25.6px 0;
+    border-radius: 12px;
+    background: var(--Basic-White, #FFF);
+  }
+  footer .footer__items .footer__card--dad .footer__card--2 {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    padding: 24.4px 0 25.6px 0;
+    border-radius: 12px;
+    background: var(--Basic-White, #FFF);
+  }
+  footer .footer__items .footer__card--dad .footer__card--3 {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    padding: 24.4px 0 25.6px 0;
+    border-radius: 12px;
+    background: var(--Basic-White, #FFF);
+  }
+  footer .footer__items .footer__card--dad .footer__card--4 {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    padding: 24.4px 0 25.6px 0;
+    border-radius: 12px;
+    background: var(--Basic-White, #FFF);
+  }
+  footer .footer__items--2 .footer__items--main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--radio {
+    display: block;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__nad-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__nad-item .footer__items--2__text {
+    margin: 0 0 0;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__pod-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+  }
+  footer .footer__items--2 .footer__items--main-box .footer__items--2__pod-item p {
+    margin: 0 0;
+  }
+  footer .footer__items--2 .footer__items--2__buttom {
+    color: var(--Grey-Text, #B3B3BA);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+@media screen and (min-width: 927px) {
+  footer .footer__items .footer__card--dad .footer__card--img {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header {
+    flex-direction: row;
+    padding: 50px 110px 0 110px;
+    justify-content: space-between;
+  }
+  header .header__top {
+    display: none;
+  }
+  header .header__box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-end;
+    width: 50%;
+    justify-content: flex-end;
+  }
+  header .header__box .header__top {
+    align-self: flex-end;
+  }
+  .main {
+    margin-bottom: 30px;
+    padding: 0 110px;
+  }
+  .main .main__card .main__card--person {
+    flex: 1 1 300px;
+  }
+  footer .footer__items .footer__card--dad .footer__card--img {
+    width: 50%;
+  }
+  footer .footer__items--2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=team.css.map */
