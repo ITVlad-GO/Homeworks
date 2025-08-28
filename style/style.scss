@@ -1,6 +1,6 @@
 $accent_color: var(--Accent, #F0145A);
 $active_regular: var(--Active-Regular, #24A3FF);
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 400px) {
 header {
     display: flex;
     flex-direction: column;
@@ -440,7 +440,7 @@ header {
     }
 }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
     header {    
         padding: 60px;
         gap: 30px;
@@ -727,7 +727,7 @@ header {
         }
     }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1439px) {
     header {
         flex-direction: row;
         padding: 50px 110px 0 110px;
