@@ -1,6 +1,6 @@
 $accent_color: var(--Accent, #F0145A);
 $active_regular: var(--Active-Regular, #24A3FF);
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) {
 header {
     display: flex;
     flex-direction: column;
